@@ -1,0 +1,32 @@
+.jumbotron {
+    padding-top: 2rem;
+    background-color: #e2edff;
+
+}
+
+#projects {
+    background-color: #e2edff;
+}
+
+#navbar {
+    background-color: #9DA4B0;
+}
+
+footer {
+    background-color: #9DA4B0;
+}
+
+#link-footer {
+    font-style: normal; 
+    text-decoration: none; 
+    color: black
+}
+
+section {
+    padding-top: 4rem;
+}
+
+li > a:hover {
+    background-color: #6D727A;
+    border-radius: 5px;
+}

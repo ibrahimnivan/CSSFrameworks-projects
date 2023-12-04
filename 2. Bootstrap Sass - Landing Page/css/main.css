@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@100;400;500;700&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+body::before {
+  content: "";
+  font-family: "Montserrat", sans-serif;
+  background-image: url(../img/Group\ 2.png);
+  background-position: 17% 0%;
+  background-repeat: no-repeat;
+  background-size: 55vmax;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.custom-nav img {
+  width: 50px;
+  height: 50px;
+}
+.custom-nav span {
+  color: #283677;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.custom-nav .nav-link {
+  color: #283677;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 1.5em;
+}
+.custom-nav .nav-link:hover {
+  color: #6b7ccd;
+}
+.custom-nav button {
+  background-color: #283677;
+  color: #ffffff;
+}
+@media screen and (max-width: 992px) {
+  .custom-nav {
+    margin-top: -1.5em;
+  }
+}
+
+.custom-selection {
+  margin-top: 4em;
+}
+.custom-selection h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  color: #283677;
+  line-height: 1;
+}
+.custom-selection h3 {
+  font-weight: 400;
+  font-size: 2rem;
+  color: #A8AEAF;
+  line-height: 1;
+}
+.custom-selection p {
+  font-size: 1.1rem;
+  margin-top: 2em;
+  text-align: right;
+}
+.custom-selection div button {
+  display: inline-block;
+  color: #ffffff;
+  width: 100px;
+  background-color: #283677;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  font-size: 0.8rem;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
